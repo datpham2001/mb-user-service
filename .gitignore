@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+coverage.xml
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Build artifacts
+build/
+bin/
+
+# VSCode
+.vscode/
+
+# macOS files
+.DS_Store
+._*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Layered env configs are commit-safe (no secrets; use env vars for those)
+!env.production.yaml
+!env.example.yaml
+env.local.yaml
+
+# Mock files
+mock/
+
+# Air
+.air.toml
+
+# Other materials
+docs/*
+.claude/
+.gitnexus/
+AGENTS.md
+CLAUDE.md
