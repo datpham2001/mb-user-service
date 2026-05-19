@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/datpham2001/be-winsku/internal/infrastructure/configinfra"
-	"github.com/datpham2001/be-winsku/internal/infrastructure/loginfra"
-	"github.com/datpham2001/be-winsku/internal/presentation/http/controllers"
-	"github.com/datpham2001/be-winsku/internal/presentation/http/middlewares"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/configinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/loginfra"
+	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/controllers"
+	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/middlewares"
 	"github.com/gin-gonic/gin"
 )
 

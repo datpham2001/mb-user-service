@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"github.com/datpham2001/be-winsku/internal/application/usecases"
-	"github.com/datpham2001/be-winsku/internal/presentation/http/middlewares"
-	"github.com/datpham2001/be-winsku/internal/presentation/http/request"
-	"github.com/datpham2001/be-winsku/internal/presentation/http/response"
+	"github.com/datpham2001/mb-api-gateway/internal/application/usecases"
+	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/middlewares"
+	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/request"
+	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/response"
 	"github.com/gin-gonic/gin"
 )
 

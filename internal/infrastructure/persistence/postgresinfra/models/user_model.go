@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/datpham2001/be-winsku/internal/domain/entities"
+	"github.com/datpham2001/mb-api-gateway/internal/domain/entities"
 )
 
 type User struct {

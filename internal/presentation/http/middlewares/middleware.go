@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/datpham2001/be-winsku/internal/infrastructure/configinfra"
-	"github.com/datpham2001/be-winsku/internal/infrastructure/loginfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/configinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/loginfra"
 	"github.com/gin-gonic/gin"
 	"go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
 )

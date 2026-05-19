@@ -6,8 +6,8 @@ import (
 
 	"slices"
 
-	"github.com/datpham2001/be-winsku/internal/infrastructure/authinfra"
-	"github.com/datpham2001/be-winsku/internal/presentation/http/response"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/authinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/response"
 	"github.com/gin-gonic/gin"
 )
 

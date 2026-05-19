@@ -1,4 +1,4 @@
-module github.com/datpham2001/be-winsku
+module github.com/datpham2001/mb-api-gateway
 
 go 1.25.5
 

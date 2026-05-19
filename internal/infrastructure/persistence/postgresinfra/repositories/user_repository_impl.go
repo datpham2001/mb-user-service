@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/datpham2001/be-winsku/internal/domain/entities"
-	"github.com/datpham2001/be-winsku/internal/infrastructure/persistence/postgresinfra/models"
+	"github.com/datpham2001/mb-api-gateway/internal/domain/entities"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/persistence/postgresinfra/models"
 	"gorm.io/gorm"
 )
 

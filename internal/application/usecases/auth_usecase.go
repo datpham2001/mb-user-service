@@ -8,13 +8,13 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/datpham2001/be-winsku/internal/application/dto"
-	"github.com/datpham2001/be-winsku/internal/domain/entities"
-	domainErrors "github.com/datpham2001/be-winsku/internal/domain/errors"
-	"github.com/datpham2001/be-winsku/internal/domain/repositories"
-	"github.com/datpham2001/be-winsku/internal/infrastructure/authinfra"
-	"github.com/datpham2001/be-winsku/internal/infrastructure/configinfra"
-	"github.com/datpham2001/be-winsku/internal/infrastructure/loginfra"
+	"github.com/datpham2001/mb-api-gateway/internal/application/dto"
+	"github.com/datpham2001/mb-api-gateway/internal/domain/entities"
+	domainErrors "github.com/datpham2001/mb-api-gateway/internal/domain/errors"
+	"github.com/datpham2001/mb-api-gateway/internal/domain/repositories"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/authinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/configinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/loginfra"
 	"golang.org/x/crypto/bcrypt"
 )
 

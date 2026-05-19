@@ -1,6 +1,6 @@
 package request
 
-import "github.com/datpham2001/be-winsku/internal/application/dto"
+import "github.com/datpham2001/mb-api-gateway/internal/application/dto"
 
 type RegisterAccountReq struct {
 	Username string `json:"username" binding:"required,min=3,max=50,alphanum"`

@@ -3,7 +3,7 @@ package postgresinfra
 import (
 	"fmt"
 
-	"github.com/datpham2001/be-winsku/internal/infrastructure/configinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/configinfra"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

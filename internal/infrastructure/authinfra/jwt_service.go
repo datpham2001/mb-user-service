@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/datpham2001/be-winsku/internal/infrastructure/configinfra"
+	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/configinfra"
 	"github.com/golang-jwt/jwt/v5"
 )
 

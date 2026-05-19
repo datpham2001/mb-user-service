@@ -3,7 +3,7 @@ package repositories
 import (
 	"context"
 
-	"github.com/datpham2001/be-winsku/internal/domain/entities"
+	"github.com/datpham2001/mb-api-gateway/internal/domain/entities"
 )
 
 type ITokenRepository interface {
