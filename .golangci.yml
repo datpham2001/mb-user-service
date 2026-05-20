@@ -1,0 +1,74 @@
+version: "2"
+
+run:
+  timeout: 5m
+  go: "1.24"
+
+linters:
+  default: standard
+  enable:
+    - bodyclose       # ensure HTTP response bodies are closed
+    - contextcheck    # ensure context is propagated correctly
+    - errname         # error types should be named correctly
+    - errorlint       # catches common error wrapping mistakes
+    - exhaustive      # switch exhaustiveness on enums
+    - godot           # comments should end with a period
+    - gocritic        # opinionated but useful code style checks
+    - misspell        # typos in comments/strings
+    - noctx           # HTTP requests must use context
+    - prealloc        # suggest slice pre-allocation
+    - revive          # replacement for golint
+    - unparam         # unused function parameters
+    - whitespace      # leading/trailing blank lines
+
+  settings:
+    govet:
+      enable-all: true
+      disable:
+        - shadow       # too noisy for common patterns like `err`
+
+    revive:
+      rules:
+        - name: exported
+          arguments:
+            - disableStutteringCheck
+
+    exhaustive:
+      default-signifies-exhaustive: true
+
+    gocritic:
+      enabled-tags:
+        - diagnostic
+        - style
+
+    godot:
+      scope: declarations
+
+    misspell:
+      locale: US
+
+  exclusions:
+    rules:
+      # Test files have relaxed rules
+      - path: "_test\\.go"
+        linters:
+          - unparam
+          - gocritic
+
+      # Generated migration files
+      - path: "migrations/"
+        linters:
+          - all
+
+      # Main entrypoint — log.Fatalf is intentional
+      - path: "cmd/api/main\\.go"
+        linters:
+          - revive
+
+formatters:
+  enable:
+    - goimports
+  settings:
+    goimports:
+      local-prefixes:
+        - github.com/datpham2001/mb-user-service

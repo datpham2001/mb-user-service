@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/datpham2001/mb-api-gateway/internal/presentation/http/middlewares"
+	"github.com/datpham2001/mb-user-service/internal/presentation/http/middlewares"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/configinfra"
+	"github.com/datpham2001/mb-user-service/internal/infrastructure/configinfra"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
