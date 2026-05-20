@@ -1,4 +1,4 @@
-module github.com/datpham2001/mb-api-gateway
+module github.com/datpham2001/mb-user-service
 
 go 1.25.5
 

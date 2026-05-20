@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/datpham2001/mb-api-gateway/internal/infrastructure/loginfra"
+	"github.com/datpham2001/mb-user-service/internal/infrastructure/loginfra"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

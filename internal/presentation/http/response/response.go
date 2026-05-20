@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	domainErrors "github.com/datpham2001/mb-api-gateway/internal/domain/errors"
-	pkgValidator "github.com/datpham2001/mb-api-gateway/pkg/validator"
+	domainErrors "github.com/datpham2001/mb-user-service/internal/domain/errors"
+	pkgValidator "github.com/datpham2001/mb-user-service/pkg/validator"
 	"github.com/gin-gonic/gin"
 )
 

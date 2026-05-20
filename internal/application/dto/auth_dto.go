@@ -3,7 +3,7 @@ package dto
 import (
 	"time"
 
-	"github.com/datpham2001/mb-api-gateway/internal/domain/entities"
+	"github.com/datpham2001/mb-user-service/internal/domain/entities"
 )
 
 type RegisterAccountRequest struct {

@@ -1,6 +1,6 @@
 package request
 
-import "github.com/datpham2001/mb-api-gateway/internal/application/dto"
+import "github.com/datpham2001/mb-user-service/internal/application/dto"
 
 type RegisterAccountReq struct {
 	Username string `json:"username" binding:"required,min=3,max=50,alphanum"`
